@@ -339,5 +339,40 @@ nav ul li a{
 
 /* Small Size Device */
 @media screen and (max-width:576px) {
+  .hero,
+  .standard-curriculum,
+  .our-teams,
+  .footer{
+    flex-direction: column;
+  }
+  .standard{
+    grid-template-columns: repeat(1, 1fr);
+  }
 
+  .team-img-story{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-img-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Medium Size Device */
+
+@media screen and (min-width:576px) and (max-width:992px){
+  .hero,
+  .standard-curriculum,
+  .our-teams,
+  .footer{
+    flex-direction: column;
+  }
+  .standard{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  ..team-img-story{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-img-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
