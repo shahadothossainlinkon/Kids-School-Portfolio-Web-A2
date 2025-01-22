@@ -1,5 +1,4 @@
 /* font-family: "Quicksand", serif; */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-normal {
   font-family: "Quicksand", serif;
@@ -7,13 +6,180 @@
   font-style: normal;
 }
 
+/* color */
+
 /* Navbar */
 
 .school{
-    display: flex;
-    font-style: none;
-    
+  margin-left: -270px;
+  font-size: 32px;
+  font-weight: 700;
 }
-.logo{
-    display: flex;
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 140px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+nav ul li{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.home{color: #FEA301;}
+.about{color: #01ACFD;}
+.facilities{color: #05D4DF;}
+.admition{color: #5D58EF;}
+
+.btn-contact{
+  color: #ffffff;
+  border: none;
+  padding: 10px 60px;
+  background-color: #FEA301;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.btn-contact a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Empowering Student */
+
+.empowering-student{
+  margin: 0 140px;
+  display: flex; 
+  margin-top: -30px; 
+}
+
+.empowering{
+  padding-top: 122px;
+  padding-bottom: 122px;
+  padding-right: 50px;
+  align-items: center;
+}
+.empower{
+  font-size: 56px;
+  font-weight: 700;
+}
+.btn-enroll{
+  width: 197px;
+  height: 50px;
+  color: #ffffff;
+  background-color: black;
+  border: none;
+  border-radius: 12px;
+}
+
+.kids-hero{
+  height: 468px;
+  width: 575px;
+}
+
+/* Standard Curriculum */
+
+.standard-curriculum{
+  margin: 0 140px;
+  background-image: url(../assets/bg.png);
+
+}
+.stand{
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.standard{
+  display: flex;
+}
+
+
+
+
+/* Our Stories */
+.our-teams{
+  margin: 0 140px;
+  background-image: url(../assets/bg.png);
+}
+.fast-img{
+  display: flex;
+}
+
+.team-img-story img{
+  height: 337px;
+  width: 540px;
+  border-radius: 16px 16px 0 0;
+}
+.btn-nov{
+  width: 174px;
+  height: 47px;
+  border-radius: 47px;
+  color: #ffffff;
+  background-color: #3CD8E8;
+  border: none;
+}
+.nov-19{
+  width: 174px;
+  height: 38px;
+  border-radius: 47px;
+  color: #ffffff;
+  background-color: #95B226;
+  border: none;
+}
+.btn-19{
+  width: 174px;
+  height: 38px;
+  border-radius: 47px;
+  color: #ffffff;
+  background-color: #5D58E0;
+  border: none;
+}
+
+.title-a{
+  font-size: 24px;
+  font-weight: 700;
+
+}
+.paragraph-a{
+  padding-left: 38px;
+  padding-right: 68px;
+  padding-bottom: 34px;
+}
+
+.display-flex{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+
+
+/* Footer Kids */
+
+.footer{
+  background-color: #01ACFD;
+}
+.kid-keep{
+  margin: 140px;
+  display: flex;
 }
